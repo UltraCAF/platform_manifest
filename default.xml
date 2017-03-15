@@ -112,6 +112,7 @@
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8974"  remote="laos" revision="cm-14.1-caf-8974" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8994"  remote="laos" revision="cm-14.1-caf-8994" />
   <project name="android_hardware_qcom_media" path="hardware/qcom/media-caf/msm8996"  remote="laos" revision="cm-14.1-caf-8996" />
+  <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="laos" />
 <!-- END LINEAGE-OS -->
 
 <!-- BEGIN CODEAURORA -->
@@ -418,7 +419,6 @@
   <project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calculator" path="packages/apps/Calculator" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Camera" path="packages/apps/Camera" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Camera2" path="packages/apps/Camera2" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CarrierConfig" path="packages/apps/CarrierConfig" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/CellBroadcastReceiver" path="packages/apps/CellBroadcastReceiver" revision="atel.lnx.2.0.r5-rel"/>
@@ -431,14 +431,10 @@
   <project groups="pdk-fs" name="platform/packages/apps/EmergencyInfo" path="packages/apps/EmergencyInfo" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" revision="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/Exchange" path="packages/apps/Exchange" revision="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/FMRadio" path="packages/apps/FMRadio" revision="fm.lnx.2.1.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Gallery2" path="packages/apps/Gallery2" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="android-framework.lnx.2.0.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" revision="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="android-framework.lnx.2.0.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/Mms" path="packages/apps/Mms" revision="android_ui.lnx.2.1.r5-rel"/>
@@ -451,7 +447,6 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="android_ui.lnx.2.1.r5-rel"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="android_ui.lnx.2.1.r5-rel"/>
-  <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="android_ui.lnx.2.1.r5-rel"/>
   <project name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="android-framework.lnx.2.0.r5-rel"/>
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" revision="nfc-aosp.lnx.2.0.r5-rel"/>
   <project name="platform/packages/apps/SnapdragonCamera" path="packages/apps/SnapdragonCamera" revision="refs/heads/camera.lnx.1.0.r5-rel"/>
