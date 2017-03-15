@@ -29,7 +29,7 @@
   <project name="platform_system_core" path="system/core" remote="UltraCaf" />
   <project name="platform_system_media" path="system/media" remote="UltraCaf" />
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="UltraCaf" />
-  <project name="platform/packages/services/Telecomm" path="packages/services/Telecomm" remote="UltraCaf"/>
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="UltraCaf"/>
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="UltraCaf" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="aosp-caf" />
 <!-- END UltraCaf -->
