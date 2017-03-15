@@ -19,7 +19,7 @@
            revision="refs/heads/n-mr1" />
 
 <!-- BEGIN UltraCaf -->
-  <project name="platform_build" path="build" remote="aosp-caf" >
+  <project name="platform_build" path="build" remote="UltraCaf" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform_frameworks_av" path="frameworks/av" remote="UltraCaf" />
@@ -276,7 +276,7 @@
   <project groups="pdk" name="platform/external/mockwebserver" path="external/mockwebserver"/>
   <project groups="pdk" name="platform/external/modp_b64" path="external/modp_b64"/>
   <project groups="pdk" name="platform/external/mp4parser" path="external/mp4parser"/>
-  <project groups="pdk" name="platform/external/mtpd" path="external/mtpd"/>
+  <project groups="pdk" name="platform/external/mtpd" path="externald/mtpd"/>
   <project groups="pdk" name="platform/external/nanohttpd" path="external/nanohttpd"/>
   <project groups="pdk" name="platform/external/nanopb-c" path="external/nanopb-c"/>
   <project groups="pdk" name="platform/external/naver-fonts" path="external/naver-fonts"/>
