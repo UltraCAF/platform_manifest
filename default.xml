@@ -33,6 +33,7 @@
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="UltraCaf" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="UltraCaf" />
   <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="UltraCaf"/>
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="UltraCaf" />
 <!-- END UltraCaf -->
 
 <!-- BEGIN AOSP-CAF -->
@@ -59,7 +60,6 @@
   <project name="platform_external_tinycompress" path="external/tinycompress" remote="aosp-caf" />
   <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="aosp-caf" />
   <project name="platform_external_zlib" path="external/zlib" remote="aosp-caf" />
-  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt" remote="aosp-caf" />
   <project name="platform_hardware_qcom_bt" path="hardware/qcom/bt-caf" revision="n-mr1-caf" remote="aosp-caf" />
   <project name="platform_hardware_qcom_keymaster" path="hardware/qcom/keymaster" remote="aosp-caf" />
