@@ -51,7 +51,7 @@
   <!-- END AOSP-CAF -->
 
   <!-- BEGIN CAF -->
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.7.r2-00200-8x98.0" />
+  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />
   <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
