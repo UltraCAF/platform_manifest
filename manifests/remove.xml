@@ -17,7 +17,6 @@
   <remove-project name="device/qcom/common" />
   <remove-project name="device/qcom/sepolicy" />
   <remove-project name="device/sample" />
-  <remove-project name="kernel/lk" />
   <remove-project name="kernel/msm-4.4" />
   <remove-project name="platform/abi/cpp" />
   <remove-project name="platform/art" />
