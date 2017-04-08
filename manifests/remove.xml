@@ -86,5 +86,6 @@
   <remove-project name="platform/vendor/qcom/titanium_32"/>
   <remove-project name="platform/vendor/qcom/titanium_64"/>
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-preject name="platform/packages/providers/TelephonyProvider" />
   <!-- REMOVE PROJECTS -->
 </manifest>
