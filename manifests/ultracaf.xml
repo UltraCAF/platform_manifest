@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- BEGIN UltraCaf -->
+  <project name="platform_build" path="build" remote="UltraCaf" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project name="platform_frameworks_av" path="frameworks/av" remote="UltraCaf" />
+  <project name="platform_frameworks_base" path="frameworks/base" remote="UltraCaf" />
+  <project name="platform_frameworks_native" path="frameworks/native" remote="UltraCaf" />
+  <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="UltraCaf" />
+  <project name="platform_system_core" path="system/core" remote="UltraCaf" />
+  <project name="platform_system_media" path="system/media" remote="UltraCaf" />
+  <project name="platform_vendor_aosp" path="vendor/aosp" remote="UltraCaf" />
+  <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="UltraCaf"/>
+  <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="UltraCaf" />
+  <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="UltraCaf" />
+  <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="UltraCaf"/>
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="UltraCaf" />
+<!-- END UltraCaf -->
+</manifest>
