@@ -36,7 +36,7 @@
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="laos" />
   <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="laos" />
   <project name="android_packages_apps_FMRadio" path="packages/apps/FMRadio" remote="laos" />
-  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
+  <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" groups="qcom,qcom_fm" remote="laos" />
   <!-- END LINEAGE-OS -->
   
 </manifest>
