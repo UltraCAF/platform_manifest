@@ -18,7 +18,7 @@
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="UltraCaf" />
   <project name="platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="UltraCaf" />
   <project name="platform_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="UltraCaf" />
-  <project name="platform/packages/apps/SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="UltraCaf" />
+  <project name="platform_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="UltraCaf" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="UltraCaf" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="UltraCaf" />
   <!--<project name="platform_hardware_libhardware" path="hardware/libhardware" remote="UltraCaf" />-->
