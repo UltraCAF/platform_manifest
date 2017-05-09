@@ -4,23 +4,37 @@
   <project name="platform_build" path="build" remote="UltraCaf" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project name="platform_art" path="art" remote="UltraCaf" />
+  <project name="platform_bionic" path="bionic" remote="UltraCaf" />
+  <project name="platform_external_skia" path="external/skia" remote="UltraCaf" />
+  <project name="platform_external_tinyalsa" path="external/tinyalsa" remote="UltraCaf" />
+  <project name="platform_external_tinycompress" path="external/tinycompress" remote="UltraCaf" />
+  <project name="platform_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="UltraCaf" />
   <project name="platform_frameworks_av" path="frameworks/av" remote="UltraCaf" />
   <project name="platform_frameworks_base" path="frameworks/base" remote="UltraCaf" />
   <project name="platform_frameworks_native" path="frameworks/native" remote="UltraCaf" />
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="UltraCaf" />
+  <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="UltraCaf" />
+  <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="UltraCaf" />
   <project name="platform_system_core" path="system/core" remote="UltraCaf" />
   <project name="platform_system_media" path="system/media" remote="UltraCaf" />
+  <project name="platform_system_bt" path="system/bt" remote="UltraCaf" />
+  <project name="platform_system_extras" path="system/extras" remote="UltraCaf" />
+  <project name="platform_system_netd" path="system/netd" remote="UltraCaf" />
+  <project name="platform_system_sepolicy" path="system/sepolicy" remote="UltraCaf" />
+  <project name="platform_system_vold" path="system/vold" remote="UltraCaf" />
   <project name="platform_vendor_aosp" path="vendor/aosp" remote="UltraCaf" />
   <project name="platform_packages_services_Telecomm" path="packages/services/Telecomm" remote="UltraCaf"/>
   <project name="platform_packages_services_Telephony" path="packages/services/Telephony" remote="UltraCaf" />
   <project name="platform_packages_apps_Settings" path="packages/apps/Settings" remote="UltraCaf" />
   <project name="platform_packages_providers_TelephonyProvider" path="packages/providers/TelephonyProvider" remote="UltraCaf"/>
+  <project name="platform_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="UltraCaf" />
   <project name="platform_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="UltraCaf" />
   <project name="platform_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="UltraCaf" />
   <project name="platform_packages_apps_SnapdragonMusic" path="packages/apps/SnapdragonMusic" remote="UltraCaf" />
   <project name="platform_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="UltraCaf" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="UltraCaf" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="UltraCaf" />
-  <!--<project name="platform_hardware_libhardware" path="hardware/libhardware" remote="UltraCaf" />-->
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="UltraCaf" />
 <!-- END UltraCaf -->
 </manifest>
