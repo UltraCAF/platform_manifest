@@ -36,6 +36,7 @@
   <project name="platform_packages_apps_SnapdragonGallery" path="packages/apps/SnapdragonGallery" remote="UltraCaf" />
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="UltraCaf" />
   <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="UltraCaf" />
+  <project name="platform_packages_apps_UltraMan" path="packages/apps/UltraMan" remote="UltraCaf" />
   <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="UltraCaf" />
 <!-- END UltraCaf -->
 </manifest>
