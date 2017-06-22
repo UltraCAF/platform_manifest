@@ -7,7 +7,11 @@
 
   <remote  name="aosp-caf"
            fetch="https://github.com/AOSP-CAF"
-           revision="refs/heads/n-mr1" />
+           revision="refs/heads/n-mr2" />
+
+  <remote  name="aosp-caf2"
+           fetch="https://github.com/AOSP-CAF"
+           revision="refs/heads/n-mr2" />
 
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
@@ -15,7 +19,7 @@
 
   <remote  name="UltraCaf"
            fetch="https://github.com/UltraCAF"
-           revision="refs/heads/n-mr1" />
+           revision="refs/heads/n-mr2" />
 
   <remote  name="github"
            fetch="https://github.com"/>
@@ -23,7 +27,7 @@
   <remote  name="github-ssh"
            fetch="ssh://git@github.com"/>
 
-  <default revision="refs/tags/LA.UM.5.8.r1-01500-8x98.0"
+  <default revision="refs/tags/LA.UM.5.8.r1-01900-8x98.0"
            remote="caf"
            sync-j="4"
            sync-c="true"/>
@@ -523,7 +527,7 @@
   <project name="platform/vendor/nxp/opensource/external/libnfc-nci" path="vendor/nxp/opensource/external/libnfc-nci" />
   <project name="platform/vendor/nxp/opensource/frameworks" path="vendor/nxp/opensource/frameworks" />
   <project name="platform/vendor/nxp/opensource/packages/apps/Nfc" path="vendor/nxp/opensource/packages/apps/Nfc" />
-  <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" />
+  <project groups="qcom" name="platform/vendor/qcom-opensource/bluetooth" path="vendor/qcom/opensource/bluetooth" revision="refs/tags/LA.UM.5.8.r1-01500-8x98.0" />
   <project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" path="vendor/qcom/opensource/data-ipa-cfg-mgr" />
   <project name="platform/vendor/qcom-opensource/dataservices" path="vendor/qcom/opensource/dataservices" />
   <project name="platform/vendor/qcom-opensource/dpm" path="vendor/qcom/opensource/dpm" />

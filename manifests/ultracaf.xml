@@ -16,6 +16,7 @@
   <project name="platform_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="UltraCaf" />
   <project name="platform_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="UltraCaf" />
   <project name="platform_hardware_libhardware" path="hardware/libhardware" remote="UltraCaf" />
+  <project name="platform_hardware_libhardware_legacy" path="hardware/libhardware_legacy" remote="UltraCaf" />
   <project name="platform_system_core" path="system/core" remote="UltraCaf" />
   <project name="platform_system_media" path="system/media" remote="UltraCaf" />
   <project name="platform_system_bt" path="system/bt" remote="UltraCaf" />
