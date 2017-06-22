@@ -9,10 +9,6 @@
            fetch="https://github.com/AOSP-CAF"
            revision="refs/heads/n-mr2" />
 
-  <remote  name="aosp-caf2"
-           fetch="https://github.com/AOSP-CAF"
-           revision="refs/heads/n-mr2" />
-
   <remote  name="caf"
            fetch="http://source.codeaurora.org/quic/la"
            review="codeaurora.org"/>
