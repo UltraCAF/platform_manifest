@@ -74,6 +74,10 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/apps/SnapdragonGallery" />
+  <remove-project name="platform/packages/apps/SnapdragonLauncher" />
+  <remove-project name="platform/packages/apps/SpareParts" />
+  <remove-project name="platform/packages/apps/SmartCardService" />
+  <remove-project name="platform/packages/inputmethods/OpenWnn" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/extras" />
