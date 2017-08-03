@@ -106,5 +106,11 @@
   <remove-project name="platform/vendor/qcom/titanium_64"/>
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/apps/Camera2" />
+  <remove-project name="platform/packages/apps/DevCamera" />
+  <remove-project name="platform/packages/apps/Gallery2" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/TV" />
+  <remove-project name="platform/packages/apps/TvSettings" />
   <!-- REMOVE PROJECTS -->
 </manifest>
