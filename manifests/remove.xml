@@ -113,5 +113,6 @@
   <remove-project name="platform/packages/apps/TV" />
   <remove-project name="platform/packages/apps/TvSettings" />
   <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/Messaging" />
   <!-- REMOVE PROJECTS -->
 </manifest>
