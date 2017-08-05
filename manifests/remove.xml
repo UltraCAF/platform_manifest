@@ -112,5 +112,6 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/TV" />
   <remove-project name="platform/packages/apps/TvSettings" />
+  <remove-project name="platform/packages/apps/DeskClock" />
   <!-- REMOVE PROJECTS -->
 </manifest>

@@ -30,5 +30,6 @@
   <project name="platform_packages_apps_Dialer" path="packages/apps/Dialer" remote="UltraCaf" />
 <!--  <project name="platform_packages_apps_Mms" path="packages/apps/Mms" remote="UltraCaf" />-->
   <project name="platform_packages_apps_UltraMan" path="packages/apps/UltraMan" remote="UltraCaf" />
+  <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="UltraCaf" />
 <!-- END UltraCaf -->
 </manifest>
