@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <!-- BEGIN UltraCaf -->
-  <project name="platform_build" path="build" remote="UltraCaf" >
+<!--  <project name="platform_build" path="build" remote="UltraCaf" >
   <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project name="platform_bionic" path="bionic" remote="UltraCaf" />
@@ -31,5 +31,6 @@
   <project name="platform_packages_apps_UltraMan" path="packages/apps/UltraMan" remote="UltraCaf" />
   <project name="platform_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="UltraCaf" />
   <project name="platform_packages_apps_Messaging" path="packages/apps/Messaging" remote="UltraCaf" />
+-->
 <!-- END UltraCaf -->
 </manifest>
