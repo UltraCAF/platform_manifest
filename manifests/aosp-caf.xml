@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- BEGIN AOSP-CAF -->
+  <!--
   <project name="platform_art" path="art" remote="aosp-caf" />
   <project name="device_qcom_common" path="device/qcom/common" revision="n-mr1" remote="aosp-caf" />
   <project name="device_qcom_sepolicy" path="device/qcom/sepolicy" revision="n-mr1" remote="aosp-caf" />
@@ -39,15 +40,15 @@
   <project name="platform_system_vold" path="system/vold" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dataservices" path="vendor/qcom/opensource/dataservices" remote="aosp-caf" />
   <project name="platform_vendor_qcom-opensource_dpm" path="vendor/qcom/opensource/dpm" remote="aosp-caf" />
-  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />
+  <project name="platform_packages_providers_MediaProvider" path="packages/providers/MediaProvider" remote="aosp-caf" />-->
   <!-- END AOSP-CAF -->
 
   <!-- BEGIN CAF -->
-  <project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />
+  <!--<project name="platform/packages/apps/WallpaperPicker" path="packages/apps/WallpaperPicker" revision="refs/tags/LA.UM.5.6.r1-03800-89xx.0" />-->
   <!-- END CAF -->
 
   <!-- BEGIN SUBSTRATUM -->
-  <project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />
+  <!--<project name="substratum/interfacer" path="packages/apps/ThemeInterfacer" remote="github" revision="n-rootless" />-->
   <!-- ENG SUBSTRATUM -->
 
 </manifest>
