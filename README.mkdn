@@ -1,4 +1,4 @@
-UltraCAF
+UltraCAF - Oreo Test
 ===========
 
 Getting Started
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the UltraCaf trees, use a command like this:
 
-    repo init -u https://github.com/UltraCaf/platform_manifest.git -b n-mr2
+    repo init -u https://github.com/UltraCaf/platform_manifest.git -b o-test
 
 Then to sync up:
 
