@@ -38,6 +38,4 @@
   <remove-project groups="qcom,default" name="platform/hardware/qcom/camera" path="hardware/qcom/camera" revision="ee6dd0a7279b90b9c7ca7b571f5228ada9d0001d" upstream="LA.BR.1.3.7_rb1.3"/>
   <remove-project name="platform/hardware/qcom/display" path="hardware/qcom/display" revision="c151eca47596c8916594b3b99afdfebff3a69b4b" upstream="LA.BR.1.3.7_rb1.3"/>
   <remove-project name="platform/hardware/qcom/media" path="hardware/qcom/media" revision="798d5e64f9dd4c4e7e6a33b7907a90cbf826d695" upstream="LA.BR.1.3.7_rb1.3"/>
-  <remove-project name="android_packages_apps_FMRadio" />
-  <remove-project name="android_hardware_qcom_fm" />
  </manifest>
