@@ -1,118 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- REMOVE PROJECTS -->
-  <remove-project name="abl/tianocore/edk2" />
-  <remove-project name="device/generic/arm64" />
-  <remove-project name="device/generic/armv7-a-neon" />
-  <remove-project name="device/generic/common" />
-  <remove-project name="device/generic/goldfish" />
-  <remove-project name="device/generic/goldfish-opengl" />
-  <remove-project name="device/generic/mini-emulator-arm64" />
-  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
-  <remove-project name="device/generic/mini-emulator-x86" />
-  <remove-project name="device/generic/mini-emulator-x86_64" />
-  <remove-project name="device/generic/qemu" />
-  <remove-project name="device/generic/x86" />
-  <remove-project name="device/generic/x86_64" />
-  <remove-project name="device/qcom/common" />
-  <remove-project name="device/qcom/sepolicy" />
-  <remove-project name="device/sample" />
-  <remove-project name="kernel/lk" />
-  <remove-project name="kernel/msm-4.4" />
-  <remove-project name="platform/abi/cpp" />
-  <remove-project name="platform/art" />
-  <remove-project name="platform/bionic" />
-  <remove-project name="platform/build" />
-  <remove-project name="platform/build/kati" />
-  <remove-project name="platform/external/ant-wireless/ant_native" />
-  <remove-project name="platform/external/e2fsprogs" />
-  <remove-project name="platform/external/f2fs-tools" />
-  <remove-project name="platform/external/fsck_msdos" />
-  <remove-project name="platform/external/jemalloc" />
-  <remove-project name="platform/external/mksh" />
-  <remove-project name="platform/external/okhttp" />
-  <remove-project name="platform/external/skia" />
-  <remove-project name="platform/external/tinyalsa" />
-  <remove-project name="platform/external/tinycompress" />
-  <remove-project name="platform/external/toybox" />
-  <remove-project name="platform/external/wpa_supplicant_8" />
-  <remove-project name="platform/external/zlib" />
-  <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/base" />
-  <remove-project name="platform/frameworks/native" />
-  <remove-project name="platform/frameworks/opt/net/wifi" />
-  <remove-project name="platform/frameworks/opt/telephony" />
-  <remove-project name="platform/hardware/libhardware" />
-  <remove-project name="platform/hardware/libhardware_legacy" />
-  <remove-project name="platform/hardware/qcom/audio"/>
-  <remove-project name="platform/hardware/qcom/bt" />
-  <remove-project name="platform/hardware/qcom/camera" />
-  <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
-  <remove-project name="platform/hardware/qcom/media" />
-  <remove-project name="platform/hardware/qcom/wlan" />
-  <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/packages/apps/Bluetooth" />
-  <remove-project name="platform/packages/apps/Dialer" />
-  <remove-project name="platform/packages/apps/FMRadio" />
-  <remove-project name="platform/packages/apps/Nfc" />
-  <remove-project name="platform/packages/apps/Settings" />
-  <remove-project name="platform/packages/apps/SnapdragonCamera" />
-  <remove-project name="platform/packages/apps/Launcher3" />
-  <remove-project name="platform/packages/apps/ExactCalculator" />
-  <remove-project name="platform/packages/apps/SnapdragonMusic" />
-  <remove-project name="platform/packages/apps/Mms" />
-  <remove-project name="platform/packages/apps/Browser2" />
-  <remove-project name="platform/packages/apps/CMFileManager" />
-  <remove-project name="platform/packages/apps/Calculator" />
-  <remove-project name="platform/packages/apps/Camera" />
-  <remove-project name="platform/packages/apps/Gallery" />
-  <remove-project name="platform/packages/apps/Launcher2" />
-  <remove-project name="platform/packages/apps/LegacyCamera" />
-  <remove-project name="platform/packages/apps/Music" />
-  <remove-project name="platform/packages/inputmethods/LatinIME" />
-  <remove-project name="platform/packages/providers/MediaProvider" />
-  <remove-project name="platform/packages/services/Telephony" />
-  <remove-project name="platform/packages/apps/SnapdragonGallery" />
-  <remove-project name="platform/packages/apps/SnapdragonLauncher" />
-  <remove-project name="platform/packages/apps/SpareParts" />
-  <remove-project name="platform/packages/apps/SmartCardService" />
-  <remove-project name="platform/packages/inputmethods/OpenWnn" />
-  <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/core" />
-  <remove-project name="platform/system/extras" />
-  <remove-project name="platform/system/media" />
-  <remove-project name="platform/system/netd" />
-  <remove-project name="platform/system/qcom" />
-  <remove-project name="platform/system/sepolicy" />
-  <remove-project name="platform/system/vold" />
-  <remove-project name="platform/vendor/qcom-opensource/data-ipa-cfg-mgr" />
-  <remove-project name="platform/vendor/qcom-opensource/dataservices" />
-  <remove-project name="platform/vendor/qcom-opensource/dpm" />
-  <remove-project name="platform/vendor/qcom-opensource/fm" />
-  <remove-project name="platform/vendor/qcom-opensource/location" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/fw-api" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/qcacld-3.0" />
-  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" />
-  <remove-project name="platform/vendor/qcom/cobalt" />
-  <remove-project name="platform/vendor/qcom/cobalt_32" />
-  <remove-project name="platform/vendor/qcom/falcon_32"/>
-  <remove-project name="platform/vendor/qcom/falcon_64"/>
-  <remove-project name="platform/vendor/qcom/thorium_32"/>
-  <remove-project name="platform/vendor/qcom/thorium_64"/>
-  <remove-project name="platform/vendor/qcom/thulium"/>
-  <remove-project name="platform/vendor/qcom/titanium_32"/>
-  <remove-project name="platform/vendor/qcom/titanium_64"/>
-  <remove-project name="platform/packages/services/Telecomm" />
-  <remove-project name="platform/packages/providers/TelephonyProvider" />
-  <remove-project name="platform/packages/apps/Camera2" />
-  <remove-project name="platform/packages/apps/DevCamera" />
-  <remove-project name="platform/packages/apps/Gallery2" />
-  <remove-project name="platform/packages/apps/QuickSearchBox" />
-  <remove-project name="platform/packages/apps/TV" />
-  <remove-project name="platform/packages/apps/TvSettings" />
-  <remove-project name="platform/packages/apps/DeskClock" />
-  <remove-project name="platform/packages/apps/Messaging" />
-  <!-- REMOVE PROJECTS -->
-</manifest>
+  <remove-project name="device/common" revision="699af187e87bab62db3e8c5189a7fb407da4a0eb" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/arm64" revision="392eec3cb4c64721cd5b76fa36535954b5d45309" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/armv7-a-neon" revision="a438913160c744d266326f82f25f0a1304221fd0" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/car" revision="a5b358c95fa96349f6443b363c182309080faf8d" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/common" revision="d96e95fbc8ae4de5b277164e76a657f9063e3748" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/goldfish" revision="7db5b0a9b7c72ac69db597d652fd8cf9cee3aacb" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/goldfish-opengl" revision="c5e214818d629405be35a8bd3ad3c0742b1fe968" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/mini-emulator-arm64" revision="657e50ece1bdefca26ef49d715e5e875068703a9" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" revision="258706fc0ddcf2c9be48967f4766ec90efb736a5" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/mini-emulator-x86" revision="65d59e2be2cfd713513a05d80a0f75794ab60579" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/mini-emulator-x86_64" revision="d57c0a07e17a7e1cb9067681716bfdcdecdf22e7" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/qemu" revision="97ef4f962aec451b00bfe562c1cb67471c4563d9" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/x86" revision="6d4527312735e4edae6e2d10b8087a935fee8be6" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/generic/x86_64" revision="734d9d725e200acf7dcb779896955299b86ebb86" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/google/accessory/arduino" revision="abc5159a3ca9dbb5c7e364a1eab99901a4440ac5" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/google/accessory/demokit" revision="7dfe7f89a3b174709c773fe319531006e46440d9" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/google/atv" revision="54e467d8616124f215e6cbe8e2ab13e480127221" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/google/contexthub" revision="e33954cd1ed2d0fde1a019dbc1865c2f07a0ca6c" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="device/google/vrservices" revision="bd77aef63c09cbcb0024c13df414360920fd75a1" upstream="LA.BR.1.3.7_rb1.3"/> 
+  <remove-project name="kernel/lk" path="bootable/bootloader/lk" revision="ac600a3c0433cb4517d4979a116e6ff471026c39" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="kernel/msm-3.10" path="kernel" revision="642c8e1feba83489dfd47bf2481689bef2971ab5" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/external/Microsoft-GSL" path="external/Microsoft-GSL" revision="c7231a8b061cb44839292cf4de1aa2b8d3fc165f" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="ec236545477c50891862ca9affa04cb04a2a6069" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/packages/apps/CMFileManager" path="packages/apps/CMFileManager" revision="58d53ebdacb4b3dc7cab40be4581339b874cf26c" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="2410ad37b0b0a9a3094da5198a56f05d9e175bf5" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/packages/apps/Launcher2" path="packages/apps/Launcher2" revision="8128c61a29b5c3a8aa6a6fa629ffbc789e3f9575" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="ee1d49c73564fea007b4c5f9c8a5ad203e904d52" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="011a922223123aa279f6f622da4700307e0dc30d" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/prima" path="vendor/qcom/opensource/wlan/prima" revision="277db4e14da7b8803f1229eee620a11ad479dc2c" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/vendor/qcom-opensource/wlan/utils/sigma-dut" path="vendor/qcom/opensource/wlan/utils/sigma-dut" revision="8fae07a3fce169a698b2e4d0185bfaeaf07697ad" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/vendor/qcom/ferrum" path="device/qcom/msm8909" revision="d2dd1c5617f0ee143210e10edc0cb51c78b4111b" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/vendor/qcom/tellurium_32" path="device/qcom/msm8952_32" revision="f2ae9feb241a638e298d4b12650ad9155e803cc4" upstream="LA.BR.1.3.7_rb1.3"/>
+  <remove-project name="platform/vendor/qcom/tellurium_64" path="device/qcom/msm8952_64" revision="e56d88d0322b01808e6e1e23b1fc7f1ab03ac724" upstream="LA.BR.1.3.7_rb1.3"/>
+ </manifest>
