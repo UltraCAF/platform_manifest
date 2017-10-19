@@ -16,7 +16,6 @@
   <project name="platform_external_fsck_msdos" path="external/fsck_msdos" remote="aosp-caf" />
   <project name="platform_external_fuse" path="external/fuse" remote="aosp-caf" />
   <project name="platform_external_jemalloc" path="external/jemalloc" remote="aosp-caf" />
-  <project name="platform_external_mksh" path="external/mksh" remote="aosp-caf" />
   <project name="platform_external_ntfs-3g" path="external/ntfs-3g" remote="aosp-caf" />
   <project name="platform_external_okhttp" path="external/okhttp" remote="aosp-caf" />
   <project name="platform_external_toybox" path="external/toybox" remote="aosp-caf" />
